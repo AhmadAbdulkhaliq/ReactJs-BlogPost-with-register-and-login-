@@ -1,0 +1,93 @@
+
+#home{
+  margin: 0;
+  padding: 0;
+}
+img{
+  border-radius: 50%;
+}
+NavItem{
+  color: white;
+}
+.logoutBtn{
+  display: none;
+}
+.posts{
+  display: flex;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 10px gray;
+  padding: 30px;
+  width: 50em;
+  margin: 0 auto
+}
+.postInfo{
+  width: 100%;
+}
+.btns{
+  margin: 1em 0
+}
+button{
+  background: none;
+  border: none;
+}
+button i{
+  font-size: 2em;
+  margin-right: 1em;
+}
+.comment{
+  background-color: #E8F8F5;
+  padding: 20px;
+  box-shadow: 1px 1px 5px gray;
+  width: 100%;
+  display: flex;
+}
+like{
+  color: blue;
+}
+
+.postImage{
+  border-radius: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+.form{
+  width: 100%;
+  margin: auto ;
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.login , .signup{
+  width: 30%;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 5px gray;
+  padding: 50px;
+  height: 100%;
+}
+.addComment{
+  display: none;
+  flex-direction: row;
+}
+.sharePostForm{
+  display: none;
+}
+#sharePostBtn{
+  display: none;
+}
+.dashbord{
+  display: none;
+}
+.postHeader{
+  line-height: 0.5em
+}
+.profile{
+  width: 100%;
+  display: none;
+}
+.profileUserImage{
+  width: 300px;
+  margin: 1em auto;
+  display: flex;
+}
